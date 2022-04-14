@@ -15,3 +15,5 @@ Firmware files as well as virtual camera application files (configurations for t
 The ip addresses that the script would apply to are set in the cameralist.csv file, which is first called by the addresslist script, which is then pulled by the vivotekmaster.exe
 
 To keep this script up to date, the only thing necessary would be to change the latest firmware files in the JSON file.
+
+Finally, this was wrapped as an executable for end user functionality, which should not require Python installed locally. It transformed the main script which calls the vivotekdata script and addresslist script into a program.  I've included the original vivotekmaster Python script for perusal.
