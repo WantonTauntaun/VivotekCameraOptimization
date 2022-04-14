@@ -1,0 +1,138 @@
+{
+  "common":{
+    "system_ntp": "your.ntp.server",
+    "system_timezoneindex": "-320",
+    "system_daylight_enable": "1",
+    "system_updateinterval": "3600",
+    "media_i0_name": "Motion Detection",
+    "media_i0_type": "videoclip",
+    "media_i0_videoclip_preevent": "9",
+    "media_i0_videoclip_maxduration": "20",
+    "event_i0_name": "Motion Detection",
+    "event_i0_enable": "1",
+    "event_i0_trigger": "motion",
+    "event_i0_mdwin": "1",
+    "event_i0_mdwin0": "0",
+    "win": "on",
+    "event_i0_action_cf_enable": "1",
+    "event_i0_action_cf_media": "0",
+    "event_i0_inter": "1",
+    "event_i0_di": "1",
+    "event_i0_triggerstatus": "trigger",
+    "event_i0_action_do_i0_duration": "1",
+    "disk_i0_cyclic_enabled": "1",
+    "disk_i0_autocleanup_maxage": "30"
+ },
+
+ "videomode":{
+    "videoin_c0_mode": "0"
+ },
+
+ "sdcard":{
+    "alerten": "1",
+    "fstype": "ext4"
+ },
+ 
+ 
+ "fd8377":{
+   
+   "videoin_c0_s0_codectype":"h264",
+	"videoin_c0_s0_resolution": "1920x1080",
+	"videoin_c0_s0_h264_intraperiod": "1000",
+	"videoin_c0_s0_h264_ratecontrolmode": "cbr",
+	"videoin_c0_s0_h264_quant": "3",
+	"videoin_c0_s0_h264_qpercent": "70",
+	"videoin_c0_s0_h264_cbr_quant": "4",
+	"videoin_c0_s0_h264_cbr_qpercent": "70",
+	"videoin_c0_s0_h264_bitrate": "6000000",
+	"videoin_c0_s0_h264_maxframe": "10",
+	"videoin_c0_s0_mjpeg_quant": "3",
+	"videoin_c0_s0_mjpeg_qpercent": "50",
+	"videoin_c0_s0_mjpeg_cbr_quant": "4",
+	"videoin_c0_s0_mjpeg_cbr_qpercent": "50",
+	"videoin_c0_s0_mjpeg_maxframe": "10",
+   "videoin_c0_s1_codectype": "h264",
+	"videoin_c0_s1_resolution": "1280x720",
+	"videoin_c0_s1_h264_intraperiod": "1000",
+	"videoin_c0_s1_h264_ratecontrolmode": "cbr",
+	"videoin_c0_s1_h264_quant": "3",
+	"videoin_c0_s1_h264_qpercent": "70",
+	"videoin_c0_s1_h264_cbr_quant": "4",
+	"videoin_c0_s1_h264_cbr_qpercent": "70",
+	"videoin_c0_s1_h264_bitrate": "6000000",
+	"videoin_c0_s1_h264_maxframe": "15",
+	"videoin_c0_s1_mjpeg_quant": "3",
+	"videoin_c0_s1_mjpeg_qpercent": "50",
+	"videoin_c0_s1_mjpeg_cbr_quant": "4",
+	"videoin_c0_s1_mjpeg_cbr_qpercent": "50",
+	"videoin_c0_s1_mjpeg_maxframe": "10",
+   "media_i0_videoclip_source": "1",
+   "media_i0_videoclip_maxsize": "4096",
+   "motion_c0_enable": "1",
+   "motion_c0_win_sensitivity": "80",
+   "motion_c0_win_i0_enable": "1",
+   "motion_c0_win_i0_name": "Motion1",
+   "motion_c0_win_i0_polygonstd": "0,0,0,9999,9999,9999,9999,0",
+   "motion_c0_win_i0_objsize": "12"
+ },
+
+
+ "fd9387htv":{
+   
+   "videoin_c0_s0_codectype": "h265",
+   "videoin_c0_s0_resolution": "2560x1920",
+   "videoin_c0_s0_h265_maxframe": "10",
+   "videoin_c0_s1_codectype": "h265",
+   "videoin_c0_s1_resolution": "1280x960",
+   "videoin_c0_s1_h265_maxframe": "15",
+   "streamprofile_i3_occupied": "1",
+   "streamprofile_i3_profilename": "SD Record",
+   "streamprofile_i3_fixed": "0",
+   "streamprofile_i3_videoconfiguration_enable": "1",
+   "streamprofile_i3_videoconfiguration_source": "c0s1",
+   "streamprofile_i3_audioconfiguration_enable": "0",
+   "streamprofile_i3_audioconfiguration_source": "c0s0",
+   "streamprofile_i3_metadataconfiguration_enable": "0",
+   "streamprofile_i3_metadataconfiguration_source": "c0s0",
+   "streamprofile_i3_alwaysmulticast": "0",
+   "media_i0_videoclip_profiletoken": "Profile203",
+   "media_i0_videoclip_maxsize": "4096"
+ },
+
+ "fd9387htva":{
+   
+   "videoin_c0_s0_codectype": "h265",
+   "videoin_c0_s0_resolution": "2560x1920",
+   "videoin_c0_s0_h265_maxframe": "10",
+   "videoin_c0_s1_codectype": "h265",
+   "videoin_c0_s1_resolution": "1280x960",
+   "videoin_c0_s1_h265_maxframe": "15",
+   "streamprofile_i3_occupied": "1",
+   "streamprofile_i3_profilename": "SD Record",
+   "streamprofile_i3_fixed": "0",
+   "streamprofile_i3_videoconfiguration_enable": "1",
+   "streamprofile_i3_videoconfiguration_source": "c0s1",
+   "streamprofile_i3_audioconfiguration_enable": "0",
+   "streamprofile_i3_audioconfiguration_source": "c0s0",
+   "streamprofile_i3_metadataconfiguration_enable": "0",
+   "streamprofile_i3_metadataconfiguration_source": "c0s0",
+   "streamprofile_i3_alwaysmulticast": "0",
+   "media_i0_videoclip_source": "1",
+   "media_i0_videoclip_maxsize": "10240"
+ },
+
+ "fd8377htvfirmware": "FD8377-HTV/fd8377-htvfirmware/FD8377-HTV-VVTK-0113b.flash.pkg",
+
+ "fd9387htvfirmware": "FD9387-HTV/fd9387-htvfirmware_2_2002/FD9387-HTV-VVTK-2.2002.23.01k.flash.pkg",
+
+ "fd8377ehtvfirmware": "FD8377-EHTV/fd8377-ehtvfirmware/FD8377-EHTV-VVTK-0113b.flash.pkg",
+
+ "fd9387htvafirmware": "FD9387-HTV-A/fd9387-htv-afirmware/FD9387-HTV-A-VVTK-0101b.flash.pkg",
+
+ "fd9387htvvca": "FD9387-HTV/VCA-Configurations-v4.3-20220202",
+
+ "fd9387htvavca": "FD9387-HTV-A/backupTrackerConfig-v4.1"
+
+   
+
+}
